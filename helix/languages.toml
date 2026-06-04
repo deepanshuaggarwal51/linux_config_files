@@ -1,0 +1,14 @@
+# Language support configuration
+# See the languages documentation: https://docs.helix-editor.com/master/languages.html
+# See the default file: https://github.com/helix-editor/helix/blob/master/languages.toml
+[use-grammars]
+only = [
+  "awk", "bash", "bibtex", "c", "cmake", "cpp", "css", "csv", "cython",
+  "diff", "fortran", "html", "json", "json5", "jsonc", "julia", "latex",
+  "log", "make", "markdown", "matlab", "python", "r", "rst", "rust",
+  "tcl", "toml", "verilog", "vim", "yaml"
+]
+
+[[language]]
+name = "python"
+language-servers = ["ruff", "ty"]

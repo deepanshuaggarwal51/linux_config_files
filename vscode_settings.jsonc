@@ -1,0 +1,30 @@
+{
+    // Editor Behaviour
+    "editor.fontFamily": "Cascadia Code",
+    "editor.fontSize": 16,
+    "editor.renderWhitespace": "all",
+
+    // Jupyter Notebook Behaviour
+    "notebook.lineNumbers": "on",
+    "notebook.markup.fontSize": 16,
+
+    // Python Language server
+    "python.languageServer": "None",
+
+    // Pyrefly specific settings
+    "python.analysis.showHoverGoToLinks": false,
+    "python.pyrefly.disabledLanguageServices": {
+        "references": true,
+        "hover": false,
+    },
+
+    // Astral ruff and ty behaviour
+    "ty.completions.autoImport": false,
+
+    // Telemetry related
+    "redhat.telemetry.enabled": false,
+
+    // python environment extension
+    "python.condaPath": "/home/deepanshu/.local/bin/micromamba",
+    "python.useEnvironmentsExtension": true
+}
